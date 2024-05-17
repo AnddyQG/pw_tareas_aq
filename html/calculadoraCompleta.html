@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <script src="../js/calculadoraCompleta.js"></script>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <section>
+
+
+        <div class="container">
+
+            <div class="calculadora">
+
+                <div class="display">
+
+                    <label id="idResultado" for=""></label>
+                </div>
+                <button id="resetear" class="col2" onclick="resetear()">C</button>
+                <button onclick="eliminarUltimo()">&larr;</button>
+                <button id="btnDividir" onclick="dividir()">%</button>
+                <button id="btn7" onclick="agregar(7)">7</button>
+                <button id="btn8" onclick="agregar(8)">8</button>
+                <button id="btn9" onclick="agregar(9)">9</button>
+                <button id="multiplicar" onclick="multiplicar()">X</button>
+                <button id="btn4" onclick="agregar(4)">4</button>
+                <button id="btn5" onclick="agregar(5)">5</button>
+                <button id="btn6" onclick="agregar(6)">6</button>
+                <button id="restar" onclick="restar()">-</button>
+                <button id="btn1" onclick="agregar(1)">1</button>
+                <button id="btn2" onclick="agregar(2)">2</button>
+                <button id="btn3" onclick="agregar(3)">3</button>
+                <button id="sumar" onclick="sumar()">+</button>
+                <button id="btn0" onclick="agregar(0)" class="col2">0</button>
+                <button id="btn." onclick="agregarPunto()">.</button>
+                <button id="btnIgual" onclick="calcular()">=</button>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+
+</body>
+</html>
